@@ -39,6 +39,7 @@ with the update status Needed, NotApplicable, NotInstalled, Installed, Failed, o
 
 Lastly, a small table lists the total number of updates found.
 If total updates found = 0 the first and third tables don't appear as there are no updates to list. 
+![Image of Script](https://github.com/Njanich5/WSUS/blob/master/images/better.PNG?raw=true)
 
 ## DeclineUpdates.ps1
 DeclineUpdates.ps1 uses the Update Services module. You can install it with the following commands:
