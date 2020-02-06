@@ -98,7 +98,7 @@ Write-Host -f Gray "
  - Keyword Search -
 Note: This will only find updates that have the keyword in the title/description
 
-Do you want to use a keyword to find specific updates? : (y/n)" -Nonewline
+Do you want to use a keyword to find specific updates? (y/n): " -Nonewline
 $keyword = Read-host
 
 if($keyword -in ("yes","y","YES")) 
