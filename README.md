@@ -39,7 +39,7 @@ with the update status Needed, NotApplicable, NotInstalled, Installed, Failed, o
 
 Lastly, a small table lists the total number of updates found.
 If total updates found = 0 the first and third tables don't appear as there are no updates to list. 
-![Image of Script](https://github.com/Njanich5/WSUS/blob/master/images/better.PNG?raw=true)
+![Image of BetterWSUSSearch.ps1](https://github.com/Njanich5/WSUS/blob/master/images/better.PNG?raw=true)
 
 ## DeclineUpdates.ps1
 DeclineUpdates.ps1 uses the Update Services module. You can install it with the following commands:
@@ -52,4 +52,6 @@ by another update, when the update arrived into WSUS, the title, and the classif
 
 It will then ask if you want to remove any Updatethat has this keyword in it's title. 
 This works great for declining any Windows 7 updates or any other version you don't want updates for anymore.
+
+![Image of DeclineUpdates.ps1](https://github.com/Njanich5/WSUS/blob/master/images/decline.PNG?raw=true)
 
